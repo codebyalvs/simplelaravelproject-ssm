@@ -8,7 +8,7 @@ use App\Http\Controllers\StudentController;
 
 
 Route::get('/', function () {
-    return view('section.index');
+    return redirect('/sections');
 });
 
 // TABLE SECTIONS
